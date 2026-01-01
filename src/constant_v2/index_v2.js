@@ -1,14 +1,14 @@
   
   
 const words = [
-    {text: 'Ideas ', imgPath: '/portfoliosite/src/asset/assets/public/images/ideas.svg'},
-    {text: 'Concepts ', imgPath: '/portfoliosite/src/asset/assets/public/images/concepts.svg'},
-    { text: "Designs", imgPath: "/portfoliosite/src/asset/assets/public/images/designs.svg" },
-    { text: "Code", imgPath: "/portfoliosite/src/asset/assets/public/images/code.svg" },
-    {text: 'Ideas ', imgPath: '/portfoliosite/src/asset/assets/public/images/ideas.svg'},
-    {text: 'Concepts ', imgPath: '/portfoliosite/src/asset/assets/public/images/concepts.svg'},
-    { text: "Designs", imgPath: "/portfoliosite/src/asset/assets/public/images/designs.svg" },
-    { text: "Code", imgPath: "/portfoliosite/src/asset/assets/public/images/code.svg" },
+    {text: 'Ideas ', imgPath: '/portfoliosite/public/images/ideas.svg'},
+    {text: 'Concepts ', imgPath: '/portfoliosite/public/images/concepts.svg'},
+    { text: "Designs", imgPath: "/portfoliosite/public/images/designs.svg" },
+    { text: "Code", imgPath: "/portfoliosite/public/images/code.svg" },
+    {text: 'Ideas ', imgPath: '/portfoliosite/public/images/ideas.svg'},
+    {text: 'Concepts ', imgPath: '/portfoliosite/public/images/concepts.svg'},
+    { text: "Designs", imgPath: "/portfoliosite/public/images/designs.svg" },
+    { text: "Code", imgPath: "/portfoliosite/public/images/code.svg" },
 ];
 
 const counterItems = [
@@ -37,44 +37,44 @@ const navLinks = [
 const logoIconsList = [
     {
         name: 'Icon-1',   
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logo1.png",
+        imgPath: "/portfoliosite/public/images/logo1.png",
     },
     {
         name: 'Icon-2',
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logo2.png",
+        imgPath: "/portfoliosite/public/images/logo2.png",
     },
     {
         name: 'Icon-3',
-        imgPath: "/src/asset/assets/public/images/logo3.png",
+        imgPath: "/portfoliosite/public/images/logo3.png",
     },
     {
         name: 'Icon-1',   
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logo1.png",
+        imgPath: "/portfoliosite/public/images/logo1.png",
     },
     {
         name: 'Icon-2',
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logo2.png",
+        imgPath: "/portfoliosite/public/images/logo2.png",
     },
     {
         name: 'Icon-3',
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logo3.png",
+        imgPath: "/portfoliosite/public/images/logo3.png",
     },
     
 ];
 
 const abilities = [
     {
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logos/powerpoint.png",
+        imgPath: "/portfoliosite/public/images/logos/powerpoint.png",
         title: "Strong skills in Presentation and Exhibition",
         desc: "Adept at structuring clear, compelling narratives and utilizing visual aids to keep the audience engaged.",
     },
     {
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logos/cube.png",
+        imgPath: "/portfoliosite/public/images/logos/cube.png",
         title: "3D modelling skills",
         desc: "Proficient with Blender, and skilled in all phases of modelling processes.",
     },
     {
-        imgPath: "/portfoliosite/src/asset/assets/public/images/logos/react.png",
+        imgPath: "/portfoliosite/public/images/logos/react.png",
         title: "Front-End Web Development",
         desc: "Specialize in creating intuitive and engaging user interfaces (UI) using modern frameworks and libraries.",
     },
@@ -83,8 +83,8 @@ const abilities = [
 
 const historyCards = [
     {
-        imgPath: "/portfoliosite/src/asset/assets/public/images/Experience/jelutong.png",
-        logoPath: '/portfoliosite/src/asset/assets/public/images/exp1.png',
+        imgPath: "/portfoliosite/public/images/Experience/jelutong.png",
+        logoPath: '/portfoliosite/public/images/exp1.png',
         title: 'Jelutong Primary School',
         date: '2014 - 2019',
         achievements: [
@@ -93,8 +93,8 @@ const historyCards = [
     },
     {
 
-        imgPath: "/portfoliosite/src/asset/assets/public/images/Experience/hanchiang.png",
-        logoPath: '/portfoliosite/src/asset/assets/public/images/exp2.png',
+        imgPath: "/portfoliosite/public/images/Experience/hanchiang.png",
+        logoPath: '/portfoliosite/public/images/exp2.png',
         title: 'Han Chiang High School',
         date: '2020 - 2024',
         achievements: [
@@ -105,8 +105,8 @@ const historyCards = [
     },
     {
 
-        imgPath: "/portfoliosite/src/asset/assets/public/images/Experience/disted.png",
-        logoPath: '/portfoliosite/src/asset/assets/public/images/exp3.png',
+        imgPath: "/portfoliosite/public/images/Experience/disted.png",
+        logoPath: '/portfoliosite/public/images/exp3.png',
         title: 'DISTED College',
         date: '2025',
         achievements: ['Silver Award in Malaysian Computing Challenge(MCC)', 
@@ -120,26 +120,26 @@ const historyCards = [
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/portfoliosite/src/asset/assets/public/models/react_logo-transformed.glb",
+    modelPath: "/portfoliosite/public/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "C++ Developer",
-    modelPath: "/portfoliosite/src/asset/assets/public/models/c++-transformed.glb",
+    modelPath: "/portfoliosite/public/models/c++-transformed.glb",
     scale: 0.07,
     rotation: [0, 0, 0],
   },
   
   {
     name: "Interactive Developer",
-    modelPath: "/portfoliosite/src/asset/assets/public/models/three.js-transformed.glb",
+    modelPath: "/portfoliosite/public/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "3D Generalist",
-    modelPath: "/portfoliosite/src/asset/assets/public/models/blender-transformed.glb",
+    modelPath: "/portfoliosite/public/models/blender-transformed.glb",
     scale: 3,
     rotation: [0, 0, 0],
   },
@@ -148,7 +148,7 @@ const techStackIcons = [
 const techStackImgs = [
   {
     name: "Webflow Developer",
-    imgPath: "/portfoliosite/src/asset/assets/public/images/logos/webflow.png  ",
+    imgPath: "/portfoliosite/public/images/logos/webflow.png  ",
     
   },
   
@@ -159,18 +159,18 @@ const socialImgs = [
   {
     name: "insta",
     url: "https://www.instagram.com/sengkuan_01/",
-    imgPath: "/portfoliosite/src/asset/assets/public/images/insta.png",
+    imgPath: "/portfoliosite/public/images/insta.png",
   },
   
   {
     name: "x",
     url: "https://x.com/franciumjr",
-    imgPath: "/portfoliosite/src/asset/assets/public/images/x.png",
+    imgPath: "/portfoliosite/public/images/x.png",
   },
   {
     name: "linkedin",
     url: "https://www.linkedin.com/in/seng-kuan-chan-18072326b",
-    imgPath: "/portfoliosite/src/asset/assets/public/images/linkedin.png",
+    imgPath: "/portfoliosite/public/images/linkedin.png",
   },
 ];
 

@@ -24,7 +24,7 @@ const Navbar = () => {
         <header className= {`navbar ${scroll ? 'scrolled' : 'not-scrolled'}`}> {/*dynamic string(the className can change depends on situation)*/} 
             <div className="inner">
                 <a href="#hero" className='logo'>
-                    <img width= "100px" src="/portfoliosite/src/asset/assets/public/images/logos/signature.png" alt="white" />
+                    <img width= "100px" src="/portfoliosite/public/images/logos/signature.png" alt="white" />
                 </a>
                 <nav className='desktop'>
                     <ul>

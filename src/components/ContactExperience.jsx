@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Environment, OrbitControls, Float, ContactShadows } from '@react-three/drei'
-import Airfryer from '../asset/assets/public/models/Airfryer.jsx'
+import Airfryer from '/public/models/Airfryer.jsx'
 
 const ContactExperience = () => {
   return (
