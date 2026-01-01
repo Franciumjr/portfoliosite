@@ -2,7 +2,7 @@ import { MatcapTexture, useGLTF } from '@react-three/drei'
 import * as THREE from "three";
 
 export function Benchpress(props) {
-  const { nodes, materials } = useGLTF("/src/components/Hero3D/bench-press.glb");
+  const { nodes, materials } = useGLTF("src/components/Hero3D/bench-press.glb");
 
 
 

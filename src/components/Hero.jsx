@@ -72,9 +72,9 @@ const Hero = () => {
                 href="/src/asset/assets/public/CV/CV- Chan Seng Kuan.pdf  "
                 download
                 className="btn-outline md:w-80 md:h-16 w-60 h-12 flex items-center justify-center font-medium"
-                aria-label="⬇️ Download CV"
+                aria-label="Download CV"
               >
-                Download CV
+                ⬇️ Download CV
               </a>
             </div>
             
