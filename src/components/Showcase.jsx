@@ -45,7 +45,7 @@ const Showcase = () => {
             {/*LEFT*/}
             <div ref={project1ref} className="first-project-wrapper">
                 <div className="image-wrapper">
-                    <img src="/src/asset/assets/public/images/project1.png" alt="" />
+                    <img src="/portfoliosite/src/asset/assets/public/images/project1.png" alt="" />
 
                 </div>
                 <div className="text-content">
@@ -57,7 +57,7 @@ const Showcase = () => {
             <div className="project-list-wrapper overflow-hidden">
                 <div ref={project2ref} className="project ">
                     <div className="image-wrapper bg-amber-50">
-                        <img src="/src/asset/assets/public/images/project2.png" alt="Library Management Platform" />
+                        <img src="/portfoliosite/src/asset/assets/public/images/project2.png" alt="Library Management Platform" />
                         
                     </div>
                     <h2>Library management platform</h2>
@@ -65,7 +65,7 @@ const Showcase = () => {
                 
                <div ref={project3ref} className="project ">
                     <div className="image-wrapper bg-red-100">
-                        <img src="/src/asset/assets/public/images/project3.png" alt="Library Management Platform" />
+                        <img src="/portfoliosite/src/asset/assets/public/images/project3.png" alt="Library Management Platform" />
                         
                     </div>
                     <h2>Library management platform</h2>
