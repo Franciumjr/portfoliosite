@@ -11,8 +11,6 @@
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
-    
-    
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
