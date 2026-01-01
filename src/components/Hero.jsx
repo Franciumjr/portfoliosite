@@ -57,7 +57,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Magnus Chan is a passionate and dedicated full-stack developer
+              Magnus not Carlsen
             </p>
             
             {/* Buttons: responsive (stack on small, row on md+) */}
