@@ -24,7 +24,7 @@ const Hero = () => {
   return (
       <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
-        <img src="/portfoliosite/src/asset/assets/public/images/bg.png" alt="" />
+        <img src="/portfoliosite/images/bg.png" alt="" />
       </div>
 
       <div className="hero-layout">
@@ -69,7 +69,7 @@ const Hero = () => {
               />
 
               <a
-                href="/portfoliosite/src/asset/assets/public/CV/CV- Chan Seng Kuan.pdf"
+                href="/portfoliosite/CV/CV- Chan Seng Kuan.pdf"
                 download
                 className="btn-outline md:w-80 md:h-16 w-60 h-12 flex items-center justify-center font-medium"
                 aria-label="Download CV"
