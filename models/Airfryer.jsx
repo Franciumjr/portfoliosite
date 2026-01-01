@@ -12,7 +12,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Aifryer(props) {
-  const { nodes, materials } = useGLTF('/portfoliosite/public/models/air-fryer-transformed-transformed.glb')
+  const { nodes, materials } = useGLTF('/portfoliosite/models/air-fryer-transformed-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh castShadow receiveShadow geometry={nodes.defaultMaterial.geometry} material={materials.material} position={[-1.762, 11.839, 17.097]} rotation={[0, -Math.PI / 2, 0]} />
@@ -20,4 +20,4 @@ export default function Aifryer(props) {
   )
 }
 
-useGLTF.preload('/portfoliosite/public/models/air-fryer-transformed-transformed.glb')
+useGLTF.preload('/portfoliosite/models/air-fryer-transformed-transformed.glb')
