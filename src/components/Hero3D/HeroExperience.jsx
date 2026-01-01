@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
 import { DirectionalLight } from 'three';
 
-import {Benchpress} from "./Benchpress.jsx";
+import {Benchpress} from "../../../public/models/Benchpress.jsx";
 import HeroLight from './HeroLight.jsx';
 
 
