@@ -1,9 +1,7 @@
 import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
-import { DirectionalLight } from 'three';
-
-import {Benchpress} from "../../../public/models/Benchpress.jsx";
+import  {Mclaren}   from "../../../models/Mclaren.jsx";
 import HeroLight from './HeroLight.jsx';
 
 
@@ -32,7 +30,7 @@ const HeroExperience = () => {
             
             
               
-            <Benchpress ></Benchpress>
+            <Mclaren></Mclaren>
             
         
     </Canvas>

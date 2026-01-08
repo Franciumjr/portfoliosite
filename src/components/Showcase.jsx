@@ -40,8 +40,9 @@ const Showcase = () => {
     <section id = "work" ref={sectionRef} className='app-showcase'>
         
       <div className="w-full">
+        <ExperienceHeader sub ="👷 Working on these right now" title="Current Projects"></ExperienceHeader>
         <div className="showcaselayout">
-            <ExperienceHeader sub ="👷 Working on these right now" title="Current Projects"></ExperienceHeader>
+            
             {/*LEFT*/}
             <div ref={project1ref} className="first-project-wrapper">
                 <div className="image-wrapper">
