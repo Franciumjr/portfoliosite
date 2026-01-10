@@ -30,7 +30,7 @@ const HeroExperience = () => {
             
             
               
-            <Mclaren></Mclaren>
+            <Mclaren scale={isTablet ? 0.25 : 0.5}></Mclaren>
 
     </Canvas>
     

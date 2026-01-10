@@ -69,7 +69,7 @@ const Showcase = () => {
                         <img src="/portfoliosite/images/project3.png" alt="Library Management Platform" />
                         
                     </div>
-                    <h2>Library management platform</h2>
+                    <h2>Startup Showcase</h2>
                 </div>
             </div>
             

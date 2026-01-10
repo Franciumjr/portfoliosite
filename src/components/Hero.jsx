@@ -29,7 +29,7 @@ const Hero = () => {
 
       <div className="hero-layout">
         {/* LEFT: Hero Content */}
-        <header className="relative z-20 flex flex-col justify-center md:px-20 ">
+        <header className="relative z-20 flex flex-col justify-center md:px-20 md:w-1/2">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
@@ -57,14 +57,14 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Magnus not Carlsen
+              Magnus Chan &mdash; not Carlsen
             </p>
             
             {/* Buttons: responsive (stack on small, row on md+) */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-4">
               <Button
                 text="See My Work"
-                className="md:w-80 md:h-16 w-60 h-12"
+                className="md:w-120 md:h-16 w-60 h-12 "
                 id="counter"
               />
 
@@ -83,7 +83,7 @@ const Hero = () => {
         </header>
 
         {/* RIGHT: 3D Model or Visual */}
-        <figure>
+        <figure className='md:w-1/2'>
           <div className="relative h-[50vh] xl:h-full w-full">
             <HeroExperience />
           </div>

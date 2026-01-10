@@ -58,7 +58,7 @@ const Techstack = () => {
                                 <img width="120px" src={img.imgPath} alt="" />
                             </div>
                         </div>
-                        <div className="padding-x w-full">
+                        <div className="padding-x w-full md:py-2">
                             <p>{img.name}</p>
                         </div>
                     </div>

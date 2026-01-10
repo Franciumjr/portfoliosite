@@ -94,7 +94,7 @@ const Experience = () => {
                             </div>
                         </div>
                         {/* RIGHT: Text*/}
-                        <div className=" max-w-prose expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
+                        <div className=" md:mr-10 max-w-3/4 expText flex xl:gap-20 md:gap-10 gap-5 relative z-20 ">
                             <div className="timeline-logo">
                                 <img src={card.imgPath} alt="" />
                             </div>
