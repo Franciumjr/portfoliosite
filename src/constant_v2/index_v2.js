@@ -13,9 +13,9 @@ const words = [
 
 const counterItems = [
     {value: 2, suffix: "+", label: "Years of Experience"},
-    {value: 50, suffix: "+", label: "Satisfied Projects"},
-    {value: 45, suffix: "+", label: "Completed Projects"},
-    {value: 85, suffix: "%", label: "Client Retention Rate"},
+    {value: 1, suffix: "+", label: "Satisfied Projects"},
+    {value: 1, suffix: "+", label: "Completed Projects"},
+    {value: 99, suffix: "%", label: "Client Retention Rate"},
 ];
 
 const navLinks = [
