@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
 import  Mclaren   from "../../../public/models/Mclaren.jsx";
 import HeroLight from './HeroLight.jsx';
-
+import { Suspense } from 'react';
 
 
 
@@ -11,10 +11,13 @@ import HeroLight from './HeroLight.jsx';
 const HeroExperience = () => {
     
     const isTablet = useMediaQuery({query: '(max-width: 1024px)'});
-    
+function Loader() {
+  const { progress } = useProgress()
+  return <Html center>{progress.toFixed(0)} % loaded</Html>
+}
 
   return (
-    <Canvas camera={{ position: [0, 0, 0], fov: 45 }}>
+    <Canvas  camera={{ position: [0, 0, 0], fov: 45 }}>
         
         <HeroLight></HeroLight>
         
@@ -27,10 +30,11 @@ const HeroExperience = () => {
             minPolarAngle={Math.PI /3} //top limit
             maxPolarAngle={Math.PI /2} //bottom limit
             />
-            
-            
-              
-            <Mclaren scale={isTablet ? 0.25 : 0.5}></Mclaren>
+
+
+            <Suspense fallback={<Loader />}>
+              <Mclaren scale={isTablet ? 0.25 : 0.5}></Mclaren>
+            </Suspense>
 
     </Canvas>
     

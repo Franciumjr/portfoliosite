@@ -55,7 +55,7 @@ const Contact = () => {
         <Title title="Get In Touch" sub="📨 Feel free to reach out!" />
         <div className="grid-12-cols items-center">
           {/* LEFT: Form */}
-          <div className="col-span-12 xl:col-span-5  ">
+          <div className="col-span-10 xl:col-span-5  ">
             <div className="flex-center card-border rounded-xl p-10">
                 
             <form 

@@ -65,7 +65,7 @@ const Experience = () => {
         <div className="mt-32 relative">
             <div className="relative z-50 xl:space-y-32 space-y-10">
                 {historyCards.map((card, index) => (
-                    <div key={card.title} className="exp-card-wrapper xl:grid-cols-[2fr_1fr_4fr] gap-8">
+                    <div key={card.title} className="exp-card-wrapper xl:grid-cols-[2fr_1fr_4fr] gap-4 md:mx-20">
 
                         {/* LEFT: card */}
                         <div className="">
@@ -94,7 +94,7 @@ const Experience = () => {
                             </div>
                         </div>
                         {/* RIGHT: Text*/}
-                        <div className=" md:mr-10 max-w-3/4 expText flex xl:gap-20 md:gap-10 gap-5 relative z-20 ">
+                        <div className=" max-w-3/4 expText flex xl:gap-20 md:gap-10 gap-5 relative z-20 ">
                             <div className="timeline-logo">
                                 <img src={card.imgPath} alt="" />
                             </div>
