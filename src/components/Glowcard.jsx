@@ -30,7 +30,7 @@ const Glowcard = ({card, children, index}) => {
             
             <div className="flex items-center gap-1 mb-5"></div>
             <div className="mb-5">
-                <p className='text-lg text-white-50'>{card.title}</p>
+                <p className='text-lg text-white-50'>{card.course}</p>
             </div>
             {children}
         </div>

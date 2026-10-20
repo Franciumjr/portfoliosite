@@ -37,7 +37,7 @@ const Showcase = () => {
 
 
   return (
-    <section id = "work" ref={sectionRef} className='app-showcase'>
+    <section id="work" ref={sectionRef} className='app-showcase'>
         
       <div className="w-full">
         <ExperienceHeader sub ="👷 Working on these right now" title="Current Projects"></ExperienceHeader>
@@ -46,30 +46,35 @@ const Showcase = () => {
             {/*LEFT*/}
             <div ref={project1ref} className="first-project-wrapper">
                 <div className="image-wrapper">
-                    <img src="/portfoliosite/images/project1.png" alt="" />
-
+                    <img src="/portfoliosite/images/food-atlas.png" alt="Taste Atlas" />
                 </div>
                 <div className="text-content">
-                    <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
-                    <p className='text-white-50 md:text-xl'>An app built with Webflow and React Native</p>
+                    <h2>Browse, share, and discover recipes from all over the world with Taste Atlas</h2>
+                    <p className='text-white-50 md:text-xl'>Built with Next.JS, tailwind CSS and deployed via Vercel</p>
                 </div>
             </div>
             {/*RIGHT*/}
             <div className="project-list-wrapper overflow-hidden">
                 <div ref={project2ref} className="project ">
-                    <div className="image-wrapper bg-amber-50">
-                        <img src="/portfoliosite/images/project2.png" alt="Library Management Platform" />
+                    <div className="image-wrapper object-cover">
+                        <img src="/portfoliosite/images/stock-market.png" alt="Brade - Trading Platform" />
                         
                     </div>
-                    <h2>Library management platform</h2>
+                    <h2>brade - Trading Platform</h2>
                 </div>
                 
                <div ref={project3ref} className="project ">
-                    <div className="image-wrapper bg-red-100">
-                        <img src="/portfoliosite/images/project3.png" alt="Library Management Platform" />
-                        
+                    <div className="image-wrapper overflow-hidden rounded-xl !p-0">
+                        <video 
+                            src="/portfoliosite/images/Experience/donut.mp4"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="w-full h-full object-cover rounded-xl"
+                        ></video>
                     </div>
-                    <h2>Startup Showcase</h2>
+                    <h2>Blender Donut!!</h2>
                 </div>
             </div>
             

@@ -1,4 +1,4 @@
-import { OrbitControls } from '@react-three/drei';
+import { OrbitControls, useProgress, Html } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
 import  Mclaren   from "../../../public/models/Mclaren.jsx";
@@ -8,13 +8,14 @@ import { Suspense } from 'react';
 
 
 
-const HeroExperience = () => {
-    
-    const isTablet = useMediaQuery({query: '(max-width: 1024px)'});
 function Loader() {
   const { progress } = useProgress()
   return <Html center>{progress.toFixed(0)} % loaded</Html>
 }
+
+const HeroExperience = () => {
+    
+    const isTablet = useMediaQuery({query: '(max-width: 1024px)'});
 
   return (
     <Canvas  camera={{ position: [0, 0, 0], fov: 45 }}>
@@ -23,8 +24,6 @@ function Loader() {
         
         <OrbitControls
             autoRotate autoRotateSpeed={3}
-            enablePan ={false}
-            enableZoom = {!isTablet}
             maxDistance={20 }
             minDistance={3}
             minPolarAngle={Math.PI /3} //top limit

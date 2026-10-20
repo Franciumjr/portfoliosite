@@ -60,7 +60,7 @@ const Experience = () => {
   return (
     <section id = "experience" className='w-full mt-20 md:mt-40 section-padding xl:px-0 '>
         <div className="w-full h-full md:px-20 px-5 ">
-            <ExperienceHeader title = "Education" sub = "👨‍🎓 Education History Overview"></ExperienceHeader>
+            <ExperienceHeader title = "Qualifications" sub = "👨‍🎓 Qualifications Overview"></ExperienceHeader>
         </div>
         <div className="mt-32 relative">
             <div className="relative z-50 xl:space-y-32 space-y-10">

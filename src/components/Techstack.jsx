@@ -30,7 +30,7 @@ const Techstack = () => {
     <div id = "skills" className='flex-center section-padding'>
         <div className='w-full h-full md:px-10 px-5'>
             <ExperienceHeader 
-            title = "My Preferred Tech Stack" 
+            title = "Skills" 
             sub = "🛠️ Skills I bring to the Table"></ExperienceHeader>
 
             <div className="tech-grid">

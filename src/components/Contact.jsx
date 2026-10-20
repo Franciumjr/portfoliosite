@@ -36,7 +36,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );
 
-      // 3. Success Handling (Moved inside the try block)
+      // 3. Success Handg (Moved inside the try block)
       setStatus('Message sent — thanks!');
       setForm({ name: '', email: '', message: '' }); // Clear form
 

@@ -64,55 +64,67 @@ const logoIconsList = [
 
 const abilities = [
     {
-        imgPath: "/portfoliosite/images/logos/powerpoint.png",
-        title: "Strong skills in Presentation and Exhibition",
+        imgPath: "/portfoliosite/images/logos/figma.jpg",
+        title: "UI UX Design",
         desc: "Adept at structuring clear, compelling narratives and utilizing visual aids to keep the audience engaged.",
     },
     {
-        imgPath: "/portfoliosite/images/logos/cube.png",
+        imgPath: "/portfoliosite/images/logos/blender.jpg",
         title: "3D modelling skills",
         desc: "Proficient with Blender, and skilled in all phases of modelling processes.",
     },
     {
-        imgPath: "/portfoliosite/images/logos/react.png",
-        title: "Front-End Web Development",
+        imgPath: "/portfoliosite/images/logos/next.png",
+        title: "Full Stack Developer",
+        desc: "Deployed > 5 projects through Next JS",
+    },
+    {
+        imgPath: "",
+        title: "",
         desc: "Specialize in creating intuitive and engaging user interfaces (UI) using modern frameworks and libraries.",
     },
     
 ];
 
 const historyCards = [
-    {
-        imgPath: "/portfoliosite/images/Experience/jelutong.png",
-        logoPath: '/portfoliosite/images/exp1.png',
-        title: 'Jelutong Primary School',
-        date: '2014 - 2019',
-        achievements: [
-            'Won 3rd Place in Penang Science Fair',
-        ],
-    },
+    
     {
 
         imgPath: "/portfoliosite/images/Experience/hanchiang.png",
         logoPath: '/portfoliosite/images/exp2.png',
         title: 'Han Chiang High School',
+        course: "IGCSE",
         date: '2020 - 2024',
         achievements: [
             '2nd Place for Robot Design  during FLL Asia-Pacific Open Championship 2023',
             'Bronze Award in Malaysian Computing Challenge (MCC)',
             'Champion in Coolest Project Malaysia 2023 (Hardware Category)',
+            'Intro to Computer Science - DISTED College',
         ],
     },
     {
 
         imgPath: "/portfoliosite/images/Experience/disted.png",
         logoPath: '/portfoliosite/images/exp3.png',
+        course: "SACE",
         title: 'DISTED College',
         date: '2025',
-        achievements: ['Silver Award in Malaysian Computing Challenge(MCC)', 
-            'Bronze Award in Olympiad Fizik Malaysia (OFM)',
+        achievements: ['Achieved Silver in Malaysian Computing Challenge(MCC)', 
+            'Achieved Bronze  in Olympiad Fizik Malaysia (OFM)',
         ],
             
+    },
+    {
+        imgPath: "/portfoliosite/images/Experience/unimelb.svg",
+        logoPath: '/portfoliosite/images/exp1.png',
+        title: 'University of Melbourne',
+        course: "Bachelor of Design",
+        date: '2026 - Present',
+        achievements: [
+            'Participated in more than 5 hackathons during 2026.',
+            "Education Officer for Google's Developer Group",
+            ""
+        ],
     },
     
 ];
@@ -169,7 +181,7 @@ const socialImgs = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/seng-kuan-chan-18072326b",
+    url: "https://www.linkedin.com/in/sengkuan-chan/",
     imgPath: "/portfoliosite/images/linkedin.png",
   },
 ];

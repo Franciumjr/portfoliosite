@@ -1,27 +1,32 @@
 import React from 'react'
 
-const Button = ({text, className, id}) => {
-  return (
-    
-    <a onClick={(e) => {e.preventDefault(); // prevent when the button is clicked, it resorts to the default func
-      const target = document.getElementById('counter')
-      if (target && id ) {
-        const offset = window.innerHeight * 0.15 //offsets the counter area so it perfectly aligns with the viewers screen
-        
-        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+const Button = ({ text, className, id = 'work' }) => {
+  const handleClick = (e) => {
+    e.preventDefault();
+    const target = document.getElementById(id);
+    if (target) {
+      const offset = 80;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  };
 
-        window.scrollTo({top, behavior: "smooth"})
-      }
-    }} className = {`${className ?? ''}`} cta-wrapper> {/*Check if the classname exists. If not(&&), render nothing */}
-        <div className="cta-button group">
-            <div className="bg-circle"></div>
-            <div className="text">{text}</div>
-            <div className="arrow-wrapper">
-                <img src="/portfoliosite/images/arrow-down.svg" alt="" />
-            </div>
+  return (
+    <a
+      href={`#${id}`}
+      onClick={handleClick}
+      className={`cta-wrapper ${className ?? ''}`}
+      aria-label={text}
+    >
+      <div className="cta-button group">
+        <div className="bg-circle" />
+        <span className="text">{text}</span>
+        <div className="arrow-wrapper">
+          <img src="/portfoliosite/images/arrow-down.svg" alt="" />
         </div>
+      </div>
     </a>
-  )
-}
+  );
+};
 
 export default Button;
